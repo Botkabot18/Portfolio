@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  position: absolute;
+  background: rgb(217, 214, 214);
+  font-family: "Tektur", sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  padding: 29px;
+}
+.sidebar nav ul li {
+  list-style: none;
+  font-size: 16px;
+  padding: 13px 0px;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /* background: yellow; */
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+
+.contactform {
+  padding: 0px 35px;
+  
+  font-family: "Source Code Pro", monospace;
+  margin: 0 88px;
+}
+.contactform h1 {
+  font-family: "Tektur", sans-serif;
+  /* padding: 12px 0; */
+  margin: 42px;
+}
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form  {
+  margin: 0 50px;
+}
+
+#emailHelp {
+  font-size: 11px;
+  color: darkblue;
+  margin: 0 5px;
+}
+
+.contactform form div input {
+  /* width: 26vw; */
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+
+.sidebarGo {
+  transform: translate(-170px, 0);
+  position: absolute;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 0px;
+  left: 3px;
+}
+
+.ham {
+  width: 40px;
+}
+.cross {
+  margin-left: 112px;
+  margin-top: 10px;
+  width: 28px;
+}
+
+#form-check {
+  flex-direction: row;
+}
+
+#form-check input {
+  width: 21px;
+  margin: 4px 0;
+}
+
+/* form button {
+  padding: 9px;
+  border-radius: 13px;
+  color: palegreen;
+  background: rebeccapurple;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px 4px;
+  cursor: pointer;
+}
+
+form button:hover{
+  color: rebeccapurple;
+  background: palegreen;
+} */
+
+form button {
+  padding: 8px 17px;
+  border-radius: 9px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  border: none;
+  background: rgba(58, 41, 250, 100);
+  background-size: 100% auto;
+  color: white;
+  text-decoration: none;
+  text-wrap: nowrap;
+  font-size: 15px;
+  font-weight: bold;
+}
+form button:hover {
+  background-position: right center;
+  background-size: 200% auto;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulseanim 1.5s infinite;
+}
+/* button a {
+text-decoration:none;
+text-wrap: nowrap;
+font-size: 18px;
+font-weight:bold; 
+  color:rgba(255, 255, 255, 100);
+} */
+@keyframes pulseanim {
+  0% {
+    box-shadow: 0 0 0 0 #3a29fa;
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+  }
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1060px) {
+  .contactform{
+    margin: 8px;
+  }
+}

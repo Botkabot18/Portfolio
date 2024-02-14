@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  position: absolute;
+  background: rgb(217, 214, 214);
+  font-family: "Tektur", sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+  padding: 29px;
+}
+.sidebar nav ul li {
+  list-style: none;
+  font-size: 16px;
+  padding: 13px 0px;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /* background: yellow; */
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+
+.intro{
+  margin: 0 88px;
+}
+
+.intro h2{
+    font-family: "Tektur", sans-serif;
+    margin: 5px;
+}
+
+.intro p{
+    font-family: "Source Code Pro", monospace;
+    margin: 14px;
+}
+
+.skillcontainer{
+  padding: 15px;
+}
+
+.skillitem{
+  width: 100%;
+  background-color: #ddd;
+  height: 13px;
+  margin: 6px;
+  border-radius: 10px;
+}
+
+/* .skill{
+  width: 209px;
+  height: 13px;
+  background: red;
+  margin: 6px;
+} */
+
+.hundred{
+  width: 100%;
+  height: 13px;
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+.fifty{
+  width: 50%;
+  height: 13px;
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+.twe5{
+  width: 25%;
+  height: 13px;
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+
+.zero{
+  width: 0%;
+  height: 13px;
+  background-color: #4CAF50;
+  border-radius: 10px;
+  
+}
+
+.sidebarGo {
+  transform: translate(-170px, 0);
+  position: absolute;
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 0px;
+  left: 3px;
+}
+
+.ham {
+  width: 40px;
+}
+.cross {
+  margin-left: 112px;
+  margin-top: 10px;
+  width: 28px;
+}
+
+/* .skillitem{
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skill{
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+} */
+
+@media (max-width: 1060px) {
+  .intro{
+    margin: 50px 8px;
+  }
+}
