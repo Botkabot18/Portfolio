@@ -12,6 +12,7 @@
   height: 100vh;
   transition: transform 0.3s ease-in;
 }
+
 .sidebar nav {
   padding: 29px;
 }
@@ -33,7 +34,7 @@
 }
 
 .intro{
-  margin: 0 88px;
+  margin: 0 155px;
 }
 
 .intro h2{
