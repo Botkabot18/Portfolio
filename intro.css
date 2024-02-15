@@ -72,6 +72,13 @@
   background-color: #4CAF50;
   border-radius: 10px;
 }
+.sev5{
+  width: 75%;
+  height: 13px;
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+
 .fifty{
   width: 50%;
   height: 13px;
@@ -85,8 +92,8 @@
   border-radius: 10px;
 }
 
-.zero{
-  width: 0%;
+.ten{
+  width: 10%;
   height: 13px;
   background-color: #4CAF50;
   border-radius: 10px;
