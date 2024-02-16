@@ -120,6 +120,13 @@
   width: 28px;
 }
 
+.skillcontainer img{
+  height: 75px;
+}
+
+.css {
+  margin: -10px;
+}
 /* .skillitem{
   width: 100%;
   background-color: #ddd;
